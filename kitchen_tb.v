@@ -7,7 +7,7 @@ module kitchen_tb;
     .chimney(chimney)
   );
 
-  initial begin
+  initial begin  //start
     $dumpfile("kitchen_tb.vcd");
     $dumpvars(0, kitchen_tb);
 
